@@ -1,0 +1,52 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+        //- nav#navbar
+        //- ul
+        //-     div#logo
+        //-         img(src="/static/logo2.jpg")
+        //-         | KDA
+        //-     li #[a(href="/") Home]
+        //-     li #[a(href="/") About]
+        //-     li #[a(href="/") Services]
+        //-     li #[a(href="/") Class Info]
+        //-     li #[a(href="/") Contact Us]
+        section#introsection
+        div Welcome to komal's Dance Academy
+        div.small Eat Dance Sleep Repeat
+        section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/11.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/2.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/3.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+        section#sponsorssection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/hp.png", alt="sponsor image", class="spimage")
+            img(src="/static/skype.png", alt="sponsor image", class="spimage")
+            img(src="/static/sponser 1.png", alt="sponsor image", class="spimage")
+            img(src="/static/sponser2.png", alt="sponsor image", class="spimage")

@@ -1,0 +1,22 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Komal Dance Academy
+    block scripts
+    block style 
+  body
+   nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo2.jpg")
+                | KDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+block content
+        footer#footer 
+        h5 Copyright © 2022 KomalAcademy.com | All Rights Reserved
+
